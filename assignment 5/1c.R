@@ -1,0 +1,6 @@
+vk1=arima.sim(n=1000,model=list(ar=c(1.1,-0.28)))
+ols_1=ar.ols(vk1)
+yw_1=ar.yw(vk1)
+vk2=arima.sim(n=10000,model=list(ar=c(1.1,-0.28)))
+ols_2=ar.ols(vk2)
+yw_2=ar.yw(vk2)

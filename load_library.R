@@ -1,0 +1,8 @@
+library(datasets)
+library(tseries)
+library(TSA)
+library(forecast)
+library(astsa)
+library(sapa)
+library(ppcor)
+library(itsmr)
